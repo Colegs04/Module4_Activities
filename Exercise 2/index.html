@@ -14,19 +14,6 @@
 			max-width: 700px;
 			margin: auto;
 		}
-
-		.card-body {
-			background: white;
-			padding: 20px;
-			border-radius: 10px;
-			box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-			list-style: none;
-		}
-
-		.card-body li {
-			padding: 10px;
-			border-bottom: 1px solid #eee;
-		}
 	</style>
 </head>
 <body>
@@ -40,7 +27,7 @@
 	</div>
 
 	<script>
-		const jsonURL = "https://yourusername.github.io/students.json";
+		const jsonURL = "https://raw.githubusercontent.com/Colegs04/Module4_Activities/refs/heads/main/Exercise%202/students.json";
 
 		fetch(jsonURL)
 		.then(response => response.json())
